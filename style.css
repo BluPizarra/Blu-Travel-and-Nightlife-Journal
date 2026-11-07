@@ -1862,8 +1862,9 @@ button, input {
   max-width: 1240px;
   margin: 1.5rem auto 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   flex-wrap: wrap;
   gap: 1rem;
   font-size: 0.82rem;
