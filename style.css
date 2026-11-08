@@ -171,6 +171,15 @@ button, input {
   color: var(--accent-seafoam);
 }
 
+.site-header .brand-logo {
+  flex-shrink: 0;
+}
+
+.site-header .brand-title {
+  white-space: nowrap;
+  font-size: 1.15rem;
+}
+
 .brand-subtitle {
   font-size: 0.70rem;
   font-weight: 600;
@@ -1875,6 +1884,10 @@ button, input {
    MOBILE RESPONSIVENESS & MEDIA QUERIES
    ========================================================================== */
 @media (max-width: 992px) {
+  .site-header .brand-title {
+    font-size: 1.05rem;
+  }
+
   .about-creator-hero {
     flex-direction: column;
     text-align: center;
@@ -1894,6 +1907,11 @@ button, input {
 }
 
 @media (max-width: 768px) {
+  .site-header .brand-title {
+    font-size: 0.95rem;
+    letter-spacing: 0.3px;
+  }
+
   .page-grid-layout {
     grid-template-columns: 1fr !important;
     gap: 2rem;
@@ -1990,5 +2008,33 @@ button, input {
   .footer-bottom-bar {
     flex-direction: column;
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header .nav-container {
+    padding: 0.75rem 0.85rem;
+  }
+
+  .site-header .brand-logo {
+    gap: 0.55rem;
+  }
+
+  .site-header .brand-icon-box {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+
+  .site-header .brand-title {
+    font-size: 0.78rem;
+    letter-spacing: 0.2px;
+  }
+}
+
+@media (max-width: 360px) {
+  .site-header .brand-title {
+    font-size: 0.68rem;
+    letter-spacing: 0;
   }
 }
