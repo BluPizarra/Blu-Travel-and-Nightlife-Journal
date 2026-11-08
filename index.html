@@ -10,7 +10,6 @@
   
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="style.css">
-  <script src="images-data.js"></script>
 </head>
 <body>
 
@@ -612,11 +611,8 @@
       const legendNightlifeItem = document.getElementById('legendNightlifeItem');
       const manilaInset = document.getElementById('manilaInsetGroup');
 
-      const imageMap = (typeof IMAGES_BASE64 !== 'undefined') ? IMAGES_BASE64 : {};
-
       function getPlaceImage(id) {
-        const key = id + '.jpg';
-        return imageMap[key] || ('webprog/' + key);
+        return 'webprog/' + id + '.jpg';
       }
 
       function showDestination(pinElement) {
