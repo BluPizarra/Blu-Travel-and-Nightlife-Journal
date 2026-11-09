@@ -1,4 +1,12 @@
 # BLU TRAVEL AND NIGHTLIFE JOURNAL
+
+[![Live Website](https://img.shields.io/badge/Live%20Website-Travel%20Journal-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://blupizarra.github.io/Blu-Travel-and-Nightlife-Journal/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Academic](https://img.shields.io/badge/APC-IT252%20WEBPROG-B3665B?style=for-the-badge)](https://www.apc.edu.ph/)
+
 > **Live Website:** [https://blupizarra.github.io/Blu-Travel-and-Nightlife-Journal/](https://blupizarra.github.io/Blu-Travel-and-Nightlife-Journal/)
 
 A responsive, high-fidelity digital travel and nightlife journal exploring the dual identity of sun-soaked Philippine island adventures by day and high-energy Manila nightlife pulses by night.
